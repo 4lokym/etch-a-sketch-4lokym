@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.square{
+    min-height: 32px;
+    min-width: 32px;
+    border: solid  black 1px;
+    flex: 0 0 ;
+
+}
+#grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+}
+.hovered{
+    background-color: red;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+    margin: auto;
+}
